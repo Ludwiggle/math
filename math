@@ -1,6 +1,6 @@
 #!/bin/bash
 
-rlwrap -f /home/nicola/miniconda3/lib/python3.7/site-packages/JWLS_kernel/Names.wl.txt  -pgreen wolframscript -c '
+rlwrap -f ~/miniconda3/lib/python3.7/site-packages/JWLS_kernel/Names.wl.txt  -pgreen wolframscript -c '
 
 
   show@g_Image := Export[CreateTemporary[]<>".png",g,"PNG"] //
